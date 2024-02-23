@@ -23,7 +23,7 @@ const createCards = (character) => {
   const nameCharacter = document.createElement("h2");
   nameCharacter.textContent = character.name;
   const genderCharacter = document.createElement("p");
-  genderCharacter.textContent = "Gender: " + document.gender;
+  genderCharacter.textContent = "Gender: " + character.gender;
 
   containerDescription.appendChild(nameCharacter);
   containerDescription.appendChild(genderCharacter);
